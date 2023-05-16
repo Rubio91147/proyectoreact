@@ -1,8 +1,8 @@
 import Formulario from "./components/Formulario"
 import Header from "./components/Header"
-import App from './App.jsx'
- import './index.css'
- import App from './App'
+import Listadopacientes from "./components/listadopacientes"
+
+
 function App() {
 
 
@@ -10,8 +10,10 @@ function App() {
   return (
 
    <>
-    <Header />
-    <Formulario />
+     <Header />
+     <Formulario />
+     <Listadopacientes /> 
+    
    </>  
   )
 }

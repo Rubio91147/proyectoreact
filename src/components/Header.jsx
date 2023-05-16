@@ -1,13 +1,11 @@
-import App from "./components/Header";
+import React from 'react'
 
-function Header() {
-    
-    
-    
-    return (
-        <h1>Desde Header</h1>
-    )
-    
+const Header = () => {
+  return (
+    <div>
+     <h2> Desde header</h2>
+    </div>
+  )
 }
 
-export default App
+export default Header
